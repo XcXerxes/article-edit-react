@@ -1,0 +1,30 @@
+/**
+ * Author: Weidongdong
+ * Version: 1.0
+ * Last Changed by Weidongdong
+ * Last Update : 
+ */
+body,h1,h2,h3,h4,h5,h6,blockquote,p,pre,
+dl,dd,menu,ol,ul,
+caption,th,td,
+form,fieldset,legend,input,button,textarea,
+header,footer,nav,article,aside,section,figure,figcaption{margin:0;padding:0}
+/*h1,h2,h3,h4,h5,h6{font-size:100%}*/
+menu,ol,ul{list-style:none}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+legend{display:none;}
+a:active,a:focus{outline: none;}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp{font-family:'courier new',courier,monospace}
+input,button,textarea,select{font-size:100%}
+abbr[title]{border-bottom:1px dotted;cursor:help}
+body{font: 12px/1 Arial, 'Droid Sans', 'Hiragino Sans GB', 'Microsoft YaHei';}
+a{text-decoration:none;}
+header,footer,nav,article,aside,section,figure,figcaption{display:block;}
+.clear{zoom:1;}
+.clear:after{visibility:hidden;display:block;font-size:0;content:"\0020";clear:both;height:0;}
+
+html, body{height: 100%;overflow: hidden;}
+body{font: 12px/1 "microsoft yahei";}
+a{text-decoration: none;}

@@ -1,0 +1,36 @@
+{
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "lodash",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "stage-2",
+        "react"
+      ],
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  }
+}
